@@ -1,0 +1,109 @@
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="tatuaje, tatuajes, black, tattoo, estudio">
+        <meta name="description"
+            content="Bienvenido a Black Lemon, somos un estudio de tatuajes especializado en black tattoo">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+            integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="/img/Logo.png" type="image/x-icon">
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.28/dist/sweetalert2.all.min.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.28/dist/sweetalert2.min.css" rel="stylesheet">
+        <title>BLACK LEMON</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-sm navbar-dark">
+            <div class="logo">
+                <img src="img/Logo.png" alt="">
+            </div>
+            <a class="navbar-brand logofont " href="#">Black Lemon</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <i class="fa-solid fa-bars fa-fade fa-lg"></i>
+            </button>
+            <div class="collapse navbar-collapse " id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tatuajes.html">Tatuajes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="diseños.html">Diseños</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="estudio.html">Estudio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="contenedor">
+            <div class="boxClima">
+                <input type="search" id="ciudad" placeholder = "Consultá el clima en tu ciudad">
+                <button id="btnClima">Buscar ciudad</button>
+            </div>
+
+
+                            <h2>Reserva tu turno</h2>|
+            <form>
+                <div class="nombre">
+                    <label for="formGroupExampleInput">Nombre</label>
+                    <input type="text" class="form-control" id="name"
+                        placeholder="Indique su nombre">
+                </div> 
+                <div  class="edad">
+                    <label for="edad">Edad</label>
+                    <input type="text" class="form-control" id="age"
+                        placeholder="Indique su edad">
+                </div>
+                <div id="hora" class="hora">
+                    <label for="horario">Horario</label>
+                    <input type="time" class="form-control" id="horario">
+                </div>
+                <div class="calendario2">
+                    <label for="date" class="calendario">Seleccione la fecha</label>
+                    <input type="date" class="form-control">
+                </div>
+                <div class="consulta">
+                    <label for="consulta">Consultar dia disponible segun horario y mes</label>
+                    <input type="time" class="form-control" id="horarioC">
+                    <input type="month" class="form-control" id="month">
+                    <input type="submit" value="Consultar" class="botonConsulta">
+                </div>
+                <div class="reservar">
+                    <input type="submit" value="Reservar turno" class="botonReservar">
+                </div>
+    </div>
+        </form>
+        <footer>
+            <p>Todos los derechos son reservados por copyright</p>
+            <div class="redes">
+                <a href="https://www.instagram.com/blacklemon.tattoo/" target="_blank"><i
+                        class="fa-brands fa-instagram"></i></a></i>
+                <a href="https://t.me/blacklemontattoo" target="_blank"><i class="fa-brands fa-telegram"></i>
+            </div>
+        </footer>
+        <a href="#" class="subir">
+            <i class="fa-regular fa-circle-up"></i>
+        </a>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+            integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous">
+        </script>
+        <script src="index.js"></script>
+    </html>
